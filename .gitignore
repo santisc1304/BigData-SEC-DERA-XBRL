@@ -1,0 +1,12 @@
+# Entornos virtuales y temporales
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Archivos temporales de Office
+~$*
+
+# Datos crudos si se descargan
+*.tar.gz
+*.zip
