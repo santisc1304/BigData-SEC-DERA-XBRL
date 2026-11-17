@@ -10,3 +10,4 @@ __pycache__/
 # Datos crudos si se descargan
 *.tar.gz
 *.zip
+

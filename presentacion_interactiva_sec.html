@@ -1739,7 +1739,7 @@ const agent = {
   z: 0, // profundidad en la alfombra/patio (-36px a +36px)
   speedX: 7.2,
   speedZ: 3.4,
-  facing: 1,
+  facing: -1,
   walkPhase: 0,
   idlePhase: 0
 };
@@ -1977,8 +1977,8 @@ function gameLoop() {
 
   let dx = 0, dz = 0;
   if (!modalOpen && !activeObstacle) {
-    if (keys.left) { dx -= agent.speedX; agent.facing = -1; }
-    if (keys.right) { dx += agent.speedX; agent.facing = 1; }
+    if (keys.left) { dx -= agent.speedX; agent.facing = 1; }
+    if (keys.right) { dx += agent.speedX; agent.facing = -1; }
     if (keys.up) dz += agent.speedZ;
     if (keys.down) dz -= agent.speedZ;
   }

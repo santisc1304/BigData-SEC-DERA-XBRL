@@ -36,3 +36,4 @@ El archivo de la presentación está completamente autocontenido con todas sus i
   - `CasoBD_Ramos-Sandoval-Moreno_Anexos.docx`: Anexos completos con las 14 capturas del clúster (C1 a C11b), incidente I1, recomendación Cloud y referencias APA 7.
 - `presentacion_assets/`: Capturas originales extraídas del clúster.
 - `graphs/`: Gráfico ejecutivo de solvencia y liquidez por sector SIC con formato numérico colombiano (`fmt_co()`).
+
