@@ -1985,7 +1985,9 @@ function gameLoop() {
 
   const moving = (dx !== 0 || dz !== 0);
   if (moving) {
-    agent.walkPhase += 0.25;
+    // Si avanza a la derecha (dx > 0) suma fase; si retrocede a la izquierda (dx < 0) resta fase
+    const dir = dx !== 0 ? Math.sign(dx) : 1;
+    agent.walkPhase += 0.25 * dir;
   } else {
     agent.walkPhase = 0;
   }
